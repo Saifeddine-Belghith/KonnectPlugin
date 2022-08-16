@@ -241,7 +241,7 @@ setup(
             'flake8==4.0.*',
             'freezegun',
             'isort==5.10.*',
-            'pep8-naming==0.12.*',
+            'pep8-naming>=0.12,<0.14',
             'potypo',
             'pycodestyle==2.8.*',
             'pyflakes==2.4.*',
