@@ -1,0 +1,14 @@
+{% load i18n %}
+
+<p>
+    {% if method == "wallet" %}
+        {% blocktrans trimmed %}
+            Please click the "Pay with Konnect" button below to start your payment.
+        {% endblocktrans %}
+    {% else %}
+        {% blocktrans trimmed %}
+            After you clicked continue, we will be able to select how you want to pay and to fill in your payment
+            details. You will then be redirected back here to review and confirm your order.
+        {% endblocktrans %}
+    {% endif %}
+</p>
