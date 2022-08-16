@@ -165,7 +165,7 @@ setup(
         'celery==4.4.*',
         'chardet==4.0.*',
         'cryptography>=3.4.2',
-        'css-inline==0.7.*',
+        'css-inline>=0.7,<0.9',
         'defusedcsv>=1.1.0',
         'dj-static',
         'Django==3.2.*',
